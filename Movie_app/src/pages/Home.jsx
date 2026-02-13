@@ -26,7 +26,7 @@ export default function Home() {
         setError("Faile to load movies");
       } finally {
         setLoading(false);
-      }
+      } 
     };
     loadPopularMovies();
   }, []);
